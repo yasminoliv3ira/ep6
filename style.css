@@ -1,11 +1,11 @@
 body{
     display: grid;
     grid-template-areas: 
-        "cima cima"
-        "lado meio"
-        "rodape rodape";
+        "cima"
+        "meio"
+        "rodape";
     grid-template-rows: 100px 800px 100px;
-    grid-template-columns: 206px  auto;
+    grid-template-columns: auto;
     
 }
 
@@ -15,11 +15,7 @@ header{
     background-color: rgb(213, 243, 255);
     background: linear-gradient();
 }
-aside{
-    grid-area: lado;
-    border: rgb(255, 255, 255) 2px solid;
-    background-color: rgb (243, 238, 243)
-}
+
 
 main{
     grid-area: meio;
